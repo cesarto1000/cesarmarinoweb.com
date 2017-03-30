@@ -9,7 +9,7 @@
 }
 
 body{
-  background: #c8c8c8;
+  background: #d1d1d1;
   font-family:sans-serif;
 }
 
@@ -20,24 +20,77 @@ header, main, footer{
 
 header{
   box-shadow: 2px 2px 2px #4d4d4d;
+  border-radius: 20px;
+  margin: 20px auto;
 }
 
 header nav{
-  background: #fff;
+  background: #00b39c;
+  border-radius: 20px;
 }
 
 header nav ul{
   list-style: none;
   display: flex;
   flex-flow: row wrap;
+  padding-left: 25px;
+}
+
+header nav ul li{
+  width: 150px;
+  text-align: center;
 }
 
 header nav ul li a{
-  padding: 10px 15px;
+  padding: 15px 0px 13px 0px;
   display: block;
   text-decoration: none;
+  color: white;
+}
+
+header nav ul li a:hover{
+  background: #000000;
+  transition: 0.5s all ease;
 }
 
 main{
-  padding: 10px;
+  padding: 10px 0px;
+}
+
+.a{
+  background: url(../images/2.jpg);
+  /*background-attachment: fixed;*/
+  background-repeat: no-repeat;
+  background-position: cover;
+  height: 500px;
+  padding: 100px 0px 400px 0px;
+}
+
+.a h1{
+  font-size: 45px;
+  color: white;
+  text-align: center;
+}
+
+.b{
+  background: #fff;
+  padding: 25px;
+}
+
+.b p{
+  margin-bottom: 25px;
+}
+
+.c{
+  background: #00698a;
+  color: white;
+  padding: 25px;
+}
+
+footer{
+  text-align: center;
+  background: #00b39c;
+  color: white;
+  padding: 20px 0px;
+  margin-bottom: 25px;
 }
